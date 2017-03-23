@@ -16,10 +16,10 @@ public abstract class AbstractCodedEnum extends AbstractEnum {
 
     protected AbstractCodedEnum(String name, String code, String desc) {
         super(name, desc);
-        if(code != null && !code.isEmpty()) {
+        if (code != null && !code.isEmpty()) {
             String key = enumKey(this.getEnumType(), code);
-            AbstractEnum $enum = (AbstractEnum)unique.get(key);
-            if($enum != null) {
+            AbstractEnum $enum = (AbstractEnum) unique.get(key);
+            if ($enum != null) {
                 throw new IllegalArgumentException("枚举常量已经存在： " + key);
             } else {
                 this.setCode(code);
@@ -31,15 +31,15 @@ public abstract class AbstractCodedEnum extends AbstractEnum {
         }
     }
 
-    public static <T extends AbstractCodedEnum> T valueByCode(Class<? extends T> enumType, String code) {
+    public static <T extends AbstractEnum> T valueByCode(Class<? extends AbstractEnum> enumType, String code) {
         initialize(enumType);
         String key = enumKey(enumType, code);
-        AbstractCodedEnum value = (AbstractCodedEnum)unique.get(key);
-        if(value != null) {
+        T value = (T) unique.get(key);
+        if (value != null) {
             return value;
         } else {
             Class superclass = enumType.getSuperclass();
-            return AbstractCodedEnum.class.isAssignableFrom(superclass)?valueByCode(superclass, code):value;
+            return AbstractCodedEnum.class.isAssignableFrom(superclass) ? (T) valueByCode(superclass, code) : value;
         }
     }
 

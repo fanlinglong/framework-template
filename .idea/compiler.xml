@@ -6,16 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="framework-biz" />
         <module name="framework-core" />
         <module name="framework-template" />
+        <module name="framework-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="framework-biz" target="1.7" />
       <module name="framework-core" target="1.7" />
+      <module name="framework-parent" target="1.7" />
       <module name="framework-template" target="1.7" />
       <module name="framework-test" target="1.7" />
-      <module name="solar-framework" target="1.7" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
   </component>
 </project>

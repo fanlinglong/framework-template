@@ -20,10 +20,10 @@ public abstract class AbstractEnum implements Serializable {
     }
 
     protected AbstractEnum(String name, String desc) {
-        if(name != null && !name.isEmpty()) {
+        if (name != null && !name.isEmpty()) {
             String key = enumKey(this.getEnumType(), name);
-            AbstractEnum $enum = (AbstractEnum)unique.get(key);
-            if($enum != null) {
+            AbstractEnum $enum = (AbstractEnum) unique.get(key);
+            if ($enum != null) {
                 throw new IllegalArgumentException("枚举常量已经存在： " + key);
             } else {
                 this.name = name;
@@ -31,15 +31,15 @@ public abstract class AbstractEnum implements Serializable {
                 unique.put(key, this);
                 unique.put(enumKey(this.getClass(), name), this);
                 initialized.put(this.getClass(), Boolean.valueOf(true));
-                synchronized(this.getEnumType()) {
+                synchronized (this.getEnumType()) {
                     enumTypes.add(this.getEnumType());
-                    Object set = (Set)mapping.get(this.getEnumType());
-                    if(set == null) {
+                    Set set = (Set) mapping.get(this.getEnumType());
+                    if (set == null) {
                         set = new HashSet(10, 1.0F);
                         mapping.put(this.getEnumType(), set);
                     }
 
-                    ((Set)set).add(this);
+                    set.add(this);
                 }
             }
         } else {
@@ -77,15 +77,15 @@ public abstract class AbstractEnum implements Serializable {
 
     protected abstract Class<? extends AbstractEnum> getEnumType();
 
-    public static <T extends AbstractEnum> T valueOf(Class<? extends T> enumType, String name) {
+    public static <T extends AbstractEnum> T valueOf(Class<? extends AbstractEnum> enumType, String name) {
         initialize(enumType);
         String key = enumKey(enumType, name);
-        AbstractEnum value = (AbstractEnum)unique.get(key);
-        if(value != null) {
+        T value = (T) unique.get(key);
+        if (value != null) {
             return value;
         } else {
             Class superclass = enumType.getSuperclass();
-            return AbstractEnum.class.isAssignableFrom(superclass)?valueOf(superclass, name):value;
+            return AbstractEnum.class.isAssignableFrom(superclass) ? (T) valueOf(superclass, name) : value;
         }
     }
 
@@ -94,8 +94,8 @@ public abstract class AbstractEnum implements Serializable {
     }
 
     protected static void initialize(Class<? extends AbstractEnum> enumType) {
-        Boolean init = (Boolean)initialized.get(enumType);
-        if(init == null || !init.booleanValue()) {
+        Boolean init = (Boolean) initialized.get(enumType);
+        if (init == null || !init.booleanValue()) {
             try {
                 Class.forName(enumType.getName(), true, enumType.getClassLoader());
                 initialized.put(enumType, Boolean.valueOf(true));
@@ -106,7 +106,7 @@ public abstract class AbstractEnum implements Serializable {
         }
 
         Class superclass = enumType.getSuperclass();
-        if(AbstractEnum.class.isAssignableFrom(superclass)) {
+        if (AbstractEnum.class.isAssignableFrom(superclass)) {
             initialize(superclass);
         }
 
@@ -115,15 +115,15 @@ public abstract class AbstractEnum implements Serializable {
     public static <T extends AbstractEnum> Set<T> values(Class<? extends T> clazz) {
         initialize(clazz);
         Class enumType = getEnumType(clazz);
-        if(enumType == null) {
+        if (enumType == null) {
             return Collections.emptySet();
         } else {
-            Set set = (Set)mapping.get(enumType);
+            Set set = (Set) mapping.get(enumType);
             HashSet copy = new HashSet(set.size());
             Iterator i$ = set.iterator();
 
-            while(i$.hasNext()) {
-                AbstractEnum value = (AbstractEnum)i$.next();
+            while (i$.hasNext()) {
+                AbstractEnum value = (AbstractEnum) i$.next();
                 copy.add(value);
             }
 
@@ -137,12 +137,12 @@ public abstract class AbstractEnum implements Serializable {
 
         Class clazz;
         do {
-            if(!i$.hasNext()) {
+            if (!i$.hasNext()) {
                 return false;
             }
 
-            clazz = (Class)i$.next();
-        } while(!clazz.isAssignableFrom(enumType));
+            clazz = (Class) i$.next();
+        } while (!clazz.isAssignableFrom(enumType));
 
         return true;
     }
@@ -153,12 +153,12 @@ public abstract class AbstractEnum implements Serializable {
 
         Class $clazz;
         do {
-            if(!i$.hasNext()) {
+            if (!i$.hasNext()) {
                 return null;
             }
 
-            $clazz = (Class)i$.next();
-        } while(!$clazz.isAssignableFrom(clazz));
+            $clazz = (Class) i$.next();
+        } while (!$clazz.isAssignableFrom(clazz));
 
         return $clazz;
     }
@@ -176,25 +176,25 @@ public abstract class AbstractEnum implements Serializable {
         initialize(this.getClass());
         Class enumType = this.getClass();
 
-        while(true) {
+        while (true) {
             AbstractEnum enumValue = parse.valueOf(enumType, key);
-            if(enumValue != null) {
+            if (enumValue != null) {
                 return enumValue;
             }
 
             Class enumValue1 = enumType.getSuperclass();
-            if(!AbstractEnum.class.isAssignableFrom(enumValue1) || enumType.equals(this.getEnumType())) {
+            if (!AbstractEnum.class.isAssignableFrom(enumValue1) || enumType.equals(this.getEnumType())) {
                 enumType = this.getClass();
-                synchronized(this.getEnumType()) {
+                synchronized (this.getEnumType()) {
                     AbstractEnum enumValue2 = parse.valueOf(enumType, key);
-                    if(enumValue2 != null) {
+                    if (enumValue2 != null) {
                         return enumValue2;
                     } else {
-                        while(true) {
+                        while (true) {
                             String $key = enumKey(enumType, key);
                             unique.put($key, this);
                             Class tempClass = enumType.getSuperclass();
-                            if(!AbstractEnum.class.isAssignableFrom(tempClass) || enumType.equals(this.getEnumType())) {
+                            if (!AbstractEnum.class.isAssignableFrom(tempClass) || enumType.equals(this.getEnumType())) {
                                 return this;
                             }
 
