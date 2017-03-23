@@ -1,136 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcadd33f-7694-4b26-a01b-c6e707f5212e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jcl_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/solar-framework.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/biz/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/biz/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/biz/.settings/org.eclipse.core.resources.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/biz/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/biz/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/biz/framework-biz.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/biz/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/biz/target/classes/META-INF/maven/thornton/framework-biz/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/biz/target/classes/META-INF/maven/thornton/framework-biz/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/.settings/org.eclipse.core.resources.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/framework-core.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/META-INF/maven/thornton/framework-core/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/META-INF/maven/thornton/framework-core/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/.settings/org.eclipse.core.resources.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/framework-template.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/target/classes/META-INF/maven/thornton/framework-template/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/target/classes/META-INF/maven/thornton/framework-template/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/spring/solar-template.xsd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/.settings/org.eclipse.core.resources.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/framework-test.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/classes/META-INF/maven/thornton/framework-test/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/classes/META-INF/maven/thornton/framework-test/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/classes/com/demo/myns.xsd" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/biz/target/classes/com/solar/framework/biz/template/facade/LoginService.class" afterPath="$PROJECT_DIR$/biz/target/classes/com/solar/framework/biz/template/facade/LoginService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/biz/target/classes/com/solar/framework/biz/template/facade/model/LoginRequest.class" afterPath="$PROJECT_DIR$/biz/target/classes/com/solar/framework/biz/template/facade/model/LoginRequest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/biz/target/classes/com/solar/framework/biz/template/facade/model/LoginResponse.class" afterPath="$PROJECT_DIR$/biz/target/classes/com/solar/framework/biz/template/facade/model/LoginResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/biz/target/classes/com/solar/framework/biz/template/service/action/UserPrepareAction.class" afterPath="$PROJECT_DIR$/biz/target/classes/com/solar/framework/biz/template/service/action/UserPrepareAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/biz/target/classes/com/solar/framework/biz/template/service/action/UserValidateAction.class" afterPath="$PROJECT_DIR$/biz/target/classes/com/solar/framework/biz/template/service/action/UserValidateAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/biz/target/classes/com/solar/framework/biz/template/service/impl/LoginServiceImpl.class" afterPath="$PROJECT_DIR$/biz/target/classes/com/solar/framework/biz/template/service/impl/LoginServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/annotation/FieldIgnore.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/annotation/FieldIgnore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/annotation/FieldMask.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/annotation/FieldMask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractCodedEnum$1.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractCodedEnum$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractCodedEnum.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractCodedEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractEnum$1.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractEnum$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractEnum$ParseValue.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractEnum$ParseValue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractEnum.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractModel.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractPagedRequest.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractPagedRequest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractPagedResponse.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractPagedResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractRequest.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractRequest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractResponse.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/AbstractResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/BaseException.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/base/BaseException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/enums/BizCode.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/enums/BizCode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/enums/ServiceCode.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/enums/ServiceCode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/enums/SourceCode.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/enums/SourceCode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/exception/BizCheckException.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/exception/BizCheckException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/exception/BizException.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/exception/BizException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/exception/NoRollbackException.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/exception/NoRollbackException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/exception/RemoteException.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/exception/RemoteException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/exception/RemoteValidateException.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/exception/RemoteValidateException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/exception/ValidateException.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/exception/ValidateException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/utils/MyReflectionToStringBuilder.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/utils/MyReflectionToStringBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/utils/SystemUtils.class" afterPath="$PROJECT_DIR$/core/target/classes/com/solar/framework/core/utils/SystemUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/framework-core-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/core/target/framework-core-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/com/solar/framework/App.class" afterPath="$PROJECT_DIR$/core/target/test-classes/com/solar/framework/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/Action.class" afterPath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/Action.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/ActionContext$1.class" afterPath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/ActionContext$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/ActionContext.class" afterPath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/ActionContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/Manager.class" afterPath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/Manager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/Processor.class" afterPath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/Processor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/common/TemplateException.class" afterPath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/common/TemplateException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/spring/TemplateBeanDefinitionParser.class" afterPath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/spring/TemplateBeanDefinitionParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/spring/TemplateNamespaceHandler.class" afterPath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/spring/TemplateNamespaceHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/spring/support/SpringHoldAction.class" afterPath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/spring/support/SpringHoldAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/spring/support/SpringHoldTemplateManager.class" afterPath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/spring/support/SpringHoldTemplateManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/support/AbstractAction.class" afterPath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/support/AbstractAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/support/TemplateManager.class" afterPath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/support/TemplateManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/support/TemplateProcessor.class" afterPath="$PROJECT_DIR$/template/target/classes/com/solar/framework/template/support/TemplateProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/target/framework-template-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/template/target/framework-template-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/target/test-classes/com/solar/framework/App.class" afterPath="$PROJECT_DIR$/template/target/test-classes/com/solar/framework/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/com/demo/MyApplicationObjectSupport.class" afterPath="$PROJECT_DIR$/test/target/classes/com/demo/MyApplicationObjectSupport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/com/demo/MyDateUitl.class" afterPath="$PROJECT_DIR$/test/target/classes/com/demo/MyDateUitl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/com/demo/MyNamespaceHandler.class" afterPath="$PROJECT_DIR$/test/target/classes/com/demo/MyNamespaceHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/com/demo/SimpleDateFormatBeanDefinitionParser.class" afterPath="$PROJECT_DIR$/test/target/classes/com/demo/SimpleDateFormatBeanDefinitionParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/com/demotest/DemoTest.class" afterPath="$PROJECT_DIR$/test/target/classes/com/demotest/DemoTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/com/solar/framework/biz/template/service/impl/LoginServiceImplTest.class" afterPath="$PROJECT_DIR$/test/target/classes/com/solar/framework/biz/template/service/impl/LoginServiceImplTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/solar/framework/core/base/AbstractCodedEnum.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/solar/framework/core/base/AbstractCodedEnum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/solar/framework/core/base/AbstractEnum.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/solar/framework/core/base/AbstractEnum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/template/target/maven-archiver/pom.properties" />
-    </list>
+    <list default="true" id="dcadd33f-7694-4b26-a01b-c6e707f5212e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/test/target/" />
     <ignored path="$PROJECT_DIR$/core/target/" />
     <ignored path="$PROJECT_DIR$/template/target/" />
@@ -590,8 +461,8 @@
         <state relative-caret-position="700">
           <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
           <folding>
-            <element signature="e#1717#1922#0" expanded="true" />
-            <element signature="e#1921#1922#0" expanded="true" />
+            <element signature="e#1717#1922#0" expanded="false" />
+            <element signature="e#1921#1922#0" expanded="false" />
           </folding>
         </state>
       </provider>
